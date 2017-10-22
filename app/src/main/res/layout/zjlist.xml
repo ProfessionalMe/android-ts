@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--定义一个ImageView 作为列表的一部分 -->
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <!--定义一个TextView 作为列表的一部分 -->
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+            android:paddingLeft="100dp" />
+        <!--定义一个TextView 作为列表项的一部分 -->
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="101dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
